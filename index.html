@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Reddy Uppathi, Web , Dev" />
+    <meta name="description" content="A spin wheel that spins and picks a random mobile for you"/>
+    <title>Spin Wheel By Reddy</title>
+
+ 
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="https://popvictoria73.github.io/assets/img/profile.png">
+</head>
+<body>
+    <h3 class="heading">
+        <i>Which mobile should I buy? 🧐🤔🧐. Refresh to play again</i>
+    </h3>
+        <div id="mainbox" class="mainbox">
+            <div id="box" class="box">
+                <div class="box1">
+                    <span class="span1"><b>Samsung</b></span>
+                    <span class="span2"><b>Apple</b></span>
+                    <span class="span3"><b>Vivo</b></span>
+                    <span class="span4"><b>Oppo</b></span>
+                </div>
+                <div class="box2">
+                    <span class="span1"><b>One Plus</b></span>
+                    <span class="span2"><b>Nokia</b></span>
+                    <span class="span3"><b>Redmi</b></span>
+                    <span class="span4"><b>Real Me</b></span>
+                </div>
+            </div>
+
+            <button id="spinWhl" class="spin" onclick="spinWheel()">SPIN</button>
+        </div>
+
+        <div id="congratesDiv" class="bubble congrates">
+            Congratulations 🎉
+            <div class="before"></div>
+            <div class="after"></div>
+        </div>
+        <script src="./js/main.js" defer></script>
+</body>
+
+</html>
